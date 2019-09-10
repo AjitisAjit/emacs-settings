@@ -1,0 +1,13 @@
+'''
+test_mailbox.py
+-------------------
+'''
+
+import pytest
+from .. import imap
+
+@pytest.fixture(scope='module')
+def connection_data(username, password):
+    conn = imap.connect()
+    mailbox_list = imap.authenticate(conn, username, password)
+    return (conn, mailbox_list)

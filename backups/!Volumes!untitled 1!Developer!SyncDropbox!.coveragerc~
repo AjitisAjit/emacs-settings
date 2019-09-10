@@ -1,0 +1,4 @@
+[run]
+include = sync/
+omit = sync/tests/*
+branch  = True

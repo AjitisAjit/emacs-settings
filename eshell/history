@@ -1,0 +1,41 @@
+ls
+touch exceptions.py
+touch monitor.py
+touch log.py
+exit
+python
+exit
+echo $PATH
+python
+ls
+clear
+cd ..
+pytest dropboxutils/tests/ -v
+exit()
+coverage run -m pytest dropboxutils/tests/ -v
+coverage report
+coverage run -m pytest dropboxutils/tests/ -v
+coverage report
+cat dropboxutils/exceptions.py
+python
+exit
+touls
+python
+clear
+ls
+cd ..
+ls
+coverage run -m pytest dropboxutils/tests/ 0-v
+coverage run -m pytest dropboxutils/tests/  -v
+coverage report
+coverage run -m pytest dropboxutils/tests/  -v
+coverage run -m pytest dropboxutils/tests/  -v
+coverage report
+coverage run -m pytest dropboxutils/tests/  -v
+coverage report
+cat ../Prototypes/Gmail/.coveragerc
+ls
+coverage run -m pytest dropboxutils/tests/  -v
+coverage report
+ls
+exit()
