@@ -2,18 +2,20 @@
 ;;;--------------
 ;;; Vanity settings
 
+;; Line numbers
+(setq display-line-numbers-width 4)
+(global-display-line-numbers-mode)
+(display-line-numbers-update-width)
+
 ;; Highlight current line
 (global-hl-line-mode 1)
 
 ;; Setup font
 (set-face-attribute 'default nil
-                    :family "Inconsolata" :height 140 :weight 'normal)
+                    :family "Inconsolata" :height 160 :weight 'normal)
 
 ;; Font colors
 (setq css-fontify-colors nil)
-
-;; Line numbers
-(add-hook 'prog-mode-hook 'global-display-line-numbers-mode)
 
 ;; Setup custom themes
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
@@ -27,18 +29,15 @@
   (when (file-directory-p path)
     (add-to-list 'custom-theme-load-path path)))
 
-;; Load theme based on mode
+;; Load theme based on graphic mode
 (defun select-theme ()
   (if (display-graphic-p)
-      (load-theme 'solarized-dark t)
+      (load-theme 'dracula t)
     (load-theme 'wheatgrass t)))
 
 (select-theme)
 
-;; Maximize on startup
-(add-hook 'window-setup-hook 'toggle-frame-fullscreen t)
-
-;; Settings for window mode
+;; Frame settings based on window mode
 (when (display-graphic-p)
   (setq frame-title-format '(buffer-file-name "%f" ("%b")))
   (tooltip-mode -1)

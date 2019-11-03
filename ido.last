@@ -2,21 +2,44 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/ajser/Developer/" . "shell-startup/")
+ ("/Users/ajser/Developer/shell-startup/" . ".shell/")
+ ("/Volumes/untitled 1/Developer/Api/" . "api/")
+ ("/Volumes/untitled 1/Developer/Api/api/" . "db/")
+ ("/Volumes/untitled 1/Developer/Trend_Analysis/" . "alerts/")
+ ("/Volumes/untitled 1/Developer/" . "Prototypes/")
  ("/Volumes/untitled 1/Developer/DropboxUtils/dropboxutils/" . "__pycache__/")
  ("/Volumes/untitled 1/Developer/DropboxUtils/" . "dropboxutils/")
  ("/Volumes/untitled 1/Developer/SyncDropbox/" . "sync/")
- ("/Volumes/untitled 1/Developer/Prototypes/" . "Gmail/")
+ ("/Volumes/untitled 1/Developer/Prototypes/" . "Alerts/")
  ("/Volumes/untitled 1/Developer/Prototypes/Gmail/" . "gmail/")
  ("/Volumes/untitled 1/Developer/Prototypes/Gmail/gmail/" . "tests/")
  ("/" . "home/")
- ("/Users/ajser/" . ".emacs.d/")
+ ("/Users/ajser/" . ".shell/")
  ("/Users/ajser/.emacs.d/" . "settings/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/ajser/.shell/"
  "/Users/ajser/.emacs.d/settings/"
+ "/Users/ajser/.emacs.d/themes/"
  "/Users/ajser/.emacs.d/"
+ "/Volumes/untitled 1/Developer/Docs/Alerts/"
+ "/Users/ajser/.zsh/"
+ "/Users/ajser/"
+ "/Users/ajser/Developer/shell-startup/.shell/"
+ "/Users/ajser/Developer/shell-startup/"
+ "/Users/ajser/Developer/shell-startup/.bash/"
+ "/Users/ajser/Developer/shell-startup/.zsh/"
+ "/Users/ajser/Developer/shell-startup/.sh/"
+ "/Volumes/untitled 1/Developer/Api/api/db/"
+ "/Volumes/untitled 1/Developer/Api/api/"
+ "/Volumes/untitled 1/Developer/Api/api/tests/"
+ "/Volumes/untitled 1/Developer/Api/"
+ "/Volumes/untitled 1/Developer/Prototypes/"
+ "/Volumes/untitled 1/Developer/Trend_Analysis/"
+ "/Volumes/untitled 1/Developer/Prototypes/Alerts/"
  "/Volumes/untitled 1/Developer/DropboxUtils/dropboxutils/"
  "/Volumes/untitled 1/Developer/SyncDropbox/sync/"
  "/Volumes/untitled 1/Developer/Prototypes/Gmail/gmail/"
@@ -24,30 +47,79 @@
  "/Volumes/untitled 1/Developer/Prototypes/Gmail/"
  "/Volumes/untitled 1/Developer/Prototypes/Gmail/gmail/tests/"
  "/Users/ajser/.emacs.d/site-lisp/"
- "/Users/ajser/.emacs.d/themes/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "setup-python-mode.el"
+ "interactive"
+ "appearance.el"
+ "wheatgrass-theme.el"
+ "dracula-theme.el"
  "init.el"
- "log.py"
- "monitor.py"
- "__init__.py"
- "_dropbox.py"
- "_email.py"
- "Pipfile"
- "imap.py"
- "README.md"
+ "dracula-nw-theme.el"
+ "Dracula-theme.el"
+ "deployment.html"
+ "deployment.org"
+ "login"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/ajser/.emacs.d/settings/" (23927 13414 0 0) "setup-yasnippet.el" "setup-python-mode.el" "setup-package.el" "setup-ido.el" "setup-hippie.el" "setup-flycheck.el" "setup-dired.el" "better-defaults.el" "appearance.el" "../" "./")
+ ("/Users/ajser/" (23998 39437 0 0) "VMS/" "VirtualBox VMs/" "Virtual Machines.localized/" "themes/" "sicp/" "rust/" "Public/" "Pictures/" "Parallels/" "Notes/" "Notebooks/" "nltk_data/" "nlp_data/" "Music/" "Movies/" "Library/" "iTerm2-Color-Schemes/" "init/" "fonts/" "Experimental/" "Downloads/" "Documents/" "Developer/" "Desktop/" "data/" "Code/" "brew.sh" "bin/" "Applications (Parallels)/" "Applications/" "anaconda3/" ".zshrc" ".zshenv" ".zsh_history" ".zsh/" ".zprofile" ".zcompdump-AjDmin’s MacBook Pro-5.7.1" ".zcompdump-AjDmin’s MacBook Pro-5.2" ".wgetrc" ".wget-hsts" ".vscode/" ".virtualenvs/" ".viminfo" ".vim/" ".Trash/" ".tmux.conf~" ".tmux.conf" ".subversion/" ".stCommitMsg" ".ssh/" ".sqlite_history" ".spacemacs" ".shell.pre-oh-my-zsh" ".shell/" ".sh/" ".screenrc" ".rustup/" ".rediscli_history" ".python_history" ".pylintrc" ".pylint.d/" ".psql_history" ".profile" ".multirust/" ".matplotlib/" ".macos" ".local/" ".jupyter/" ".iterm2_shell_integration.zsh" ".iterm2_shell_integration.bash" ".iterm2/" ".ipython/" ".ipynb_checkpoints/" ".inputrc" ".hushlogin" ".hgignore_global" ".hgignore" ".gvimrc" ".google-cookie" ".gitignore" ".gitconfig" ".gitattributes" ".git-credentials" ".ghc/" ".gdbinit" ".functions" ".exports" ".eshell/" ".erlang.cookie" ".emacs.d/" ".editorconfig" ".DS_Store" ".dropbox/" ".docker/" ".curlrc" ".config/" ".condarc" ".conda/" ".commands" ".CFUserTextEncoding" ".cargo/" ".bashrc" ".bash_sessions/" ".bash_prompt" ".bash_profile" ".bash_history" ".bash/" ".aws/" ".anaconda/" ".aliases" "../" "./")
 
- ("/Users/ajser/.emacs.d/" (23927 13386 0 0) "transient/" "themes/" "snippets/" "smex-items" "site-lisp/" "settings/" "init.el" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "anaconda-mode/" "../" "./")
+ ("/Users/ajser/.zsh/" (23998 39454 0 0) "logout" "login" "interactive" "env" ".oh-my-zsh/" "../" "./")
 
- ("/Volumes/untitled 1/Developer/DropboxUtils/dropboxutils/" (23926 6902 0 0) "writers.py" "tests/" "readers.py" "monitor.py" "logger.py" "log.py" "files.py" "exceptions.py" "__pycache__/" "__init__.py" "../" "./")
+ ("/Users/ajser/.emacs.d/snippets/" (23901 6084 0 0) "python-mode/" "emacs-lisp-mode/" ".yas-setup.el" ".yas-parents" ".nosearch" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("/Users/ajser/.emacs.d/" (23997 47498 0 0) "transient/" "themes/" "snippets/" "smex-items" "site-lisp/" "settings/" "init.el" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "anaconda-mode/" ".git/" "../" "./")
+
+ ("/Users/ajser/.emacs.d/settings/" (23997 47399 0 0) "setup-yasnippet.el" "setup-python-mode.el" "setup-package.el" "setup-ido.el" "setup-hippie.el" "setup-flycheck.el" "setup-dired.el" "better-defaults.el" "appearance.el" "../" "./")
+
+ ("/Users/ajser/.emacs.d/themes/" (23997 47235 0 0) "wheatgrass-theme.el" "solarized-dark-theme.el" "dracula-theme.el" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Api/api/tests/" (23996 4487 0 0) "test_db.py" "conftest.py" "__init__.py" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Api/api/db/" (23997 5195 0 0) "sql_table.py" "models.py" "df_table.py" "__init__.py" "../" "./")
+
+ ("/Users/ajser/.shell/" (23993 50221 0 0) "logout" "login" "interactive" "env_functions" "env" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Docs/Alerts/" (23997 31228 0 0) "img/" "deployment.org" "deployment.html" ".DS_Store" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Api/api/" (23997 13621 0 0) "tests/" "tasks.py" "resources.py" "file_io.py" "exceptions.py" "db/" "config.py" "celery_worker.py" "__pycache__/" "__init__.py" "../" "./")
+
+ ("/Users/ajser/.sh/" (23993 14199 0 0) "login" "interactive" "env" "../" "./")
+
+ ("/Users/ajser/Developer/" (23993 10865 0 0) "Styles/" "shell-startup/" "Repositories/" "PriceAlertSystem/" "Practice/" "MacroExtraction/" "Extraction-v2/" "BloombergExtraction/" "bitbucket-issues-to-excel/" "BackupData/" "backup-v1.0/" ".vscode/" ".python-venvs/" ".DS_Store" "../" "./")
+
+ ("/Users/ajser/Developer/shell-startup/.bash/" (23993 10866 0 0) "logout" "login" "interactive" "env" "../" "./")
+
+ ("/Users/ajser/Developer/shell-startup/.sh/" (23993 10866 0 0) "login" "interactive" "env" "../" "./")
+
+ ("/Users/ajser/Developer/shell-startup/.shell/" (23993 10866 0 0) "logout" "login" "interactive" "env_functions" "env" "../" "./")
+
+ ("/Users/ajser/Developer/shell-startup/.zsh/" (23993 10866 0 0) "logout" "login" "interactive" "env" "../" "./")
+
+ ("/Users/ajser/Developer/shell-startup/diagram/" (23993 10866 0 0) "logical.dot" "impl-man-pages.dot" "impl-actual.dot" "../" "./")
+
+ ("/Users/ajser/Developer/shell-startup/" (23993 10866 0 0) "diagram/" ".zshrc" ".zshenv" ".zsh/" ".shell/" ".sh/" ".profile" ".hgignore" ".hg/" ".bashrc" ".bash_profile" ".bash_logout" ".bash/" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Api/" (23992 34947 0 0) "setup.py" "setup.cfg" "README.md" "Pipfile.lock" "Pipfile" "instance/" "dropboxutils/" "api/" ".pytest_cache/" ".gitignore" ".git/" ".env" ".cache/" "../" "./")
+
+ ("/Volumes/" (23992 10139 0 0) "untitled 1/" "untitled/" "MobileBackups/" "Macintosh HD/" "Emacs/" "../" "./")
+
+ ("/Volumes/untitled 1/" (23975 17004 0 0) "VMs/" "testing/" "t3-small.pem" "root-key.pem" "office-license-db" "macos-guest-virtualbox" "eeef-test-data/" "Dropbox/" "docker-data/" "Developer/" "data/" "BaseSystem.dmg" "aws.pub" "aws.pem" "aws-root.pem" "aws-root-dev.pem" "alerts-analysis.pem" "agenda.org" "Activity Data/" ".Trashes/" ".TemporaryItems/" ".fseventsd/" ".env" ".DS_Store" ".DocumentRevisions-V100/" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/" (23985 50213 0 0) "Trend_Analysis/" "SyncDropbox/" "Prototypes/" "Notes/" "Fundamental-Analysis-dev/" "Fundamental-Analysis/" "Filesystem-monitor/" "DropboxUtils/" "Docs/" "BloombergExtraction/" "bad_file.csv" "Api/" "ADOC/" ".pytest_cache/" ".DS_Store" ".coverage" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Prototypes/Alerts/" (23976 13434 0 0) "notes.org" "#notes.org#" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Trend_Analysis/" (23985 49986 0 0) "text_utils.py" "snooze_actions.py" "requirements.txt" "main.py" "logger.py" "gmail/" "generate_output.py" "extractor.py" "exceptions.py" "email_scrape.py" "dropbox_utils/" "dropbox_manager.py" "dropbox_logger.py" "Dockerfile~" "Dockerfile" "config.py" "analysis.py" "alerts/" "__init__.py" ".gitignore" ".git/" ".dockerignore" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Prototypes/" (23977 31090 0 0) "Scraping/" "Gmail/" "CompareKeywords/" "analysis.py" "Alerts/" "ADOC/" ".DS_Store" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/Trend_Analysis/alerts/" (23884 56431 0 0) "get_trends.py" "generate_alerts.py" "galerts.py" "__init__.py" "../" "./")
+
+ ("/Volumes/untitled 1/Developer/DropboxUtils/dropboxutils/" (23976 12981 0 0) "tests/" "monitor.py" "log.py" "files.py" "exceptions.py" "__pycache__/" "__init__.py" "../" "./")
 
  ("/Volumes/untitled 1/Developer/DropboxUtils/" (23924 34357 0 0) "setup.py" "setup.cfg" "README.md" "Pipfile.lock" "Pipfile" "notes.org" "dropboxutils.egg-info/" "dropboxutils/" ".pylintrc" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
@@ -69,15 +141,9 @@
 
  ("/Volumes/untitled 1/Developer/Prototypes/Gmail/" (23907 45294 0 0) "setup.py" "README.md" "Pipfile.lock" "Pipfile" "notes.org" "main.py" "gmail/" ".pytest_cache/" ".gitignore" ".git/" ".coveragerc" ".coverage" ".cache/" "../" "./")
 
- ("/Volumes/untitled 1/Developer/Prototypes/" (23907 46080 0 0) "Scraping/" "Gmail/" "CompareKeywords/" "ADOC/" ".DS_Store" "../" "./")
-
- ("/Users/ajser/.emacs.d/themes/" (23900 65064 0 0) "wheatgrass-theme.el" "solarized-dark-theme.el" "../" "./")
-
  ("/home/" (23894 17134 312375 0) "../" "./")
 
  ("/Users/" (22962 23383 0 0) "Shared/" "ajser/" "ajdmin/" ".localized" "../" "./")
-
- ("/Users/ajser/" (23900 9942 0 0) "VMS/" "VirtualBox VMs/" "Virtual Machines.localized/" "sicp/" "rust/" "Public/" "Pictures/" "Parallels/" "Notes/" "Notebooks/" "nltk_data/" "nlp_data/" "Music/" "Movies/" "Library/" "init/" "Experimental/" "Downloads/" "Documents/" "Developer/" "Desktop/" "data/" "Code/" "brew.sh" "bin/" "Applications (Parallels)/" "Applications/" "anaconda3/" ".wgetrc" ".wget-hsts" ".vscode/" ".virtualenvs/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tmux.conf~" ".tmux.conf" ".stCommitMsg" ".ssh/" ".sqlite_history" ".spacemacs" ".screenrc" ".rustup/" ".rediscli_history" ".python_history" ".pylintrc" ".pylint.d/" ".psql_history" ".profile" ".multirust/" ".matplotlib/" ".macos" ".local/" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".ipython/" ".ipynb_checkpoints/" ".inputrc" ".hushlogin" ".hgignore_global" ".hgignore" ".gvimrc" ".google-cookie" ".gitignore" ".gitconfig" ".gitattributes" ".git-credentials" ".ghc/" ".gdbinit" ".functions" ".exports" ".erlang.cookie" ".emacs.d/" ".editorconfig" ".DS_Store" ".dropbox/" ".docker/" ".curlrc" ".config/" ".condarc" ".conda/" ".commands" ".CFUserTextEncoding" ".cargo/" ".bashrc" ".bash_sessions/" ".bash_prompt" ".bash_profile" ".bash_history" ".aws/" ".anaconda/" ".aliases" "../" "./")
 
  ("/Users/ajser/.emacs.d/auto-save-list/" (23900 10105 0 0) ".saves-22267-AjDmins-MacBook-Pro.local~" "../" "./")
 )

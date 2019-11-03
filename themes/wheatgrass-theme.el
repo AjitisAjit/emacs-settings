@@ -28,30 +28,26 @@ of green, brown, and blue.")
 (let ((class '((class color) (min-colors 89))))
   (custom-theme-set-faces
    'wheatgrass
-   `(default ((,class (:foreground "wheat" :background "black"))))
-   `(cursor ((,class (:background "thistle"))))
-   `(error ((,class (:foreground "salmon1"))))
-   `(warning ((,class (:foreground "orange"))))
-   `(success ((,class (:foreground "yellow green"))))
-   ;; Compilation faces
-   `(compilation-mode-line-fail ((,class (:foreground "dark green"))))
-   `(compilation-mode-line-run  ((,class (:foreground "dark goldenrod"))))
-   `(compilation-mode-line-exit ((,class (:foreground "SpringGreen4"))))
+   `(default ((,class (:foreground "white" :background "#262626"))))
+   `(cursor ((,class (:background "#dadada"))))
+   `(error ((,class (:foreground "#d75f5f"))))
+   `(warning ((,class (:foreground "#ff8700"))))
+   `(success ((,class (:foreground "darkgreen"))))
    ;; Highlighting faces
-   `(highlight ((,class (:foreground "white" :background "dark green"))))
-   `(region ((,class (:foreground "white" :background "dark green"))))
-   `(secondary-selection ((,class (:background "dark slate gray"))))
-   `(isearch ((,class (:foreground "white" :background "dark goldenrod"))))
-   `(lazy-highlight ((,class (:background "gray25"))))
+   `(highlight ((,class (:foreground "white" :background "#1c1c1c"))))
+   `(region ((,class (:foreground "white" :background "#1c1c1c"))))
+   `(secondary-selection ((,class (:background "#303030"))))
+   `(isearch ((,class (:foreground "white" :background "#af00ff"))))
+   `(lazy-highlight ((,class (:background "#444444"))))
    ;; Font lock faces
-   `(font-lock-builtin-face ((,class (:foreground "LightSteelBlue"))))
-   `(font-lock-comment-face ((,class (:foreground "SpringGreen3"))))
-   `(font-lock-constant-face ((,class (:foreground "turquoise"))))
-   `(font-lock-function-name-face ((,class (:foreground "pale green"))))
+   `(font-lock-builtin-face ((,class (:foreground "#8787d7"))))
+   `(font-lock-comment-face ((,class (:foreground "#808080"))))
+   `(font-lock-constant-face ((,class (:foreground "#00d7ff"))))
+   `(font-lock-function-name-face ((,class (:foreground "#dfafff"))))
    `(font-lock-keyword-face ((,class (:foreground "white"))))
-   `(font-lock-string-face ((,class (:foreground "dark khaki"))))
-   `(font-lock-type-face ((,class (:foreground "aquamarine"))))
-   `(font-lock-variable-name-face ((,class (:foreground "yellow green"))))
+   `(font-lock-string-face ((,class (:foreground "#dfafff"))))
+   `(font-lock-type-face ((,class (:foreground "#00d7ff"))))
+   `(font-lock-variable-name-face ((,class (:foreground "#808080"))))
    ;; Button and link faces
    `(link ((,class (:underline t :foreground "cyan"))))
    `(link-visited ((,class (:underline t :foreground "dark cyan"))))
@@ -71,9 +67,3 @@ of green, brown, and blue.")
    `(message-separator ((,class (:foreground "deep sky blue"))))))
 
 (provide-theme 'wheatgrass)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
-
-;;; wheatgrass-theme.el ends here

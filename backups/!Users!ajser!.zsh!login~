@@ -1,0 +1,13 @@
+# OH-MY-ZSH Settings
+# Set up oh-my-zsh path
+export ZSH=~/.zsh/.oh-my-zsh
+
+# Select theme
+ZSH_THEME="agnoster"
+
+# Plugins. Don't install too many as it slows down the shell
+plugins=(git osx zsh-syntax-highlighting zsh-autosuggestions)
+
+source $ZSH/oh-my-zsh.sh
+
+. ~/.shell/login

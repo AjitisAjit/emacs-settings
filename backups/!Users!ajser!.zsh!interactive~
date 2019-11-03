@@ -1,0 +1,13 @@
+# OH-MY-ZSH Settings
+# Set up oh-my-zsh path
+export ZSH=~/.zsh/.oh-my-zsh
+
+# Set theme and plugins
+ZSH_THEME="agnoster"
+plugins=(git osx zsh-syntax-highlighting zsh-autosuggestions)
+
+# Source Oh my zsh and run interactive shell
+ssource $ZSH/oh-my-zsh.sh
+. ~/.shell/interactive
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

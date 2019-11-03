@@ -3,10 +3,9 @@
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # On branch master
-# Your branch is up-to-date with 'origin/master'.
+# Your branch is ahead of 'origin/master' by 2 commits.
+#   (use "git push" to publish your local commits)
 #
 # Changes to be committed:
-#	modified:   dropboxutils/monitor.py
-#	modified:   dropboxutils/tests/conftest.py
-#	new file:   dropboxutils/tests/test_monitor.py
+#	modified:   api/file_io.py
 #

@@ -1,0 +1,35 @@
+# Personal Info
+export NAME='Ajit Nath'
+export EMAIL='ajit.nath@organicgrowthfunds.com'
+
+# Editor
+export editor=vim
+
+# Language
+export LANG=en_US.UTF-8
+export LC_ALL=$LANG
+export LC_COLLATE=$LANG
+export LC_CTYPE=$LANG
+export LC_MESSAGES=$LANG
+export LC_MONETARY=$LANG
+export LC_NUMERIC=$LANG
+export LC_TIME=$LANG
+
+
+# Gets Path
+if [ -x /usr/libexec/path_helper ]; then
+  PATH=''
+  eval `/usr/libexec/path_helper -s`
+fi
+
+# Adds programming environments to paths
+export ANACONDA_HOME=${HOME}/anaconda3 # Anaconda
+export CARGO_HOME=${HOME}/.cargo # Cargo/Rust
+export POSTGRES_HOME=/Applications/Postgres.app/Contents/Versions/latest # Postgres
+pathprepend "${CARGO_HOME}/bin" PATH
+pathprepend "${ANACONDA_HOME}/bin" PATH
+pathprepend "${POSTGRES_HOME}/bin" PATH
+
+# The current directory should never be in $PATH
+pathremove . PATH
+pathremove "" PATH

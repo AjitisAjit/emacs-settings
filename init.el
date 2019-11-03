@@ -63,8 +63,6 @@
      exec-path-from-shell
      magit
      company
-     anaconda-mode
-     pipenv
      smartparens)))
 
 (condition-case nil
@@ -73,9 +71,21 @@
    (package-refresh-contents)
    (init--install-packages)))
 
-;; exec from shell for mac and linux
-(when (memq window-system '(mac ns x))
-  (exec-path-from-shell-initialize))
+;; exec path from shell
+(require 'exec-path-from-shell)
+
+(defun exec-path-zsh ()
+  "Reverses exec path when running on macos"
+  (progn
+    (exec-path-from-shell-initialize)
+    (when (eq system-type 'darwin)
+      (setq exec-path (reverse exec-path))
+      (setq eshell-path-env
+            (mapconcat 'identity
+                       (reverse (split-string eshell-path-env ":"))
+                       ":")))))
+
+(exec-path-zsh)
 
 ;; Company mode
 (add-hook 'after-init-hook 'global-company-mode)
@@ -109,6 +119,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("3593185c35012764e5c90f1956c1b9e0a0448451568ad5825679aca253f70ba2" "1cac527e8632fba9b965a6da3d24cb576e00437139b168f49c88fc1edada5b47" "f083877ef43920e1ca9235e849a1401254a4595dc60382932d28eac604c1b070" "c163e6d1d23fe771d836b8fd2d3e0ab3ac25f4655fcb0960cc33d1984cfc7c10" "05f37232a9f1bb5527271425eae43c27024ea038bef6e43ca88a8b7197c508eb" default)))
  '(package-selected-packages
    (quote
     (pipenv pipenv-mode exec-path-from-shell undo-tree anaconda-company company-mode anaconda-eldoc anaconda-eldoc-mode anaconda-mode hippie flycheck-pos-tip wheatgrass-theme solarized-theme magit))))

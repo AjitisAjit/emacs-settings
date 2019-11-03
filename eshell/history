@@ -39,3 +39,74 @@ coverage run -m pytest dropboxutils/tests/  -v
 coverage report
 ls
 exit()
+python
+clear
+exit
+python
+exit()
+echo $PATH
+echo $PYTHONPATH
+exit()
+echo $PATH
+exit()
+echo $PATH
+exit()
+python
+clear
+exit()
+$PATH
+exit()
+pipenv shell
+clear
+python
+echo $PATH
+exit()
+echo $PATH
+exit()
+pipenv shell
+clear
+elear
+clear
+echo $PATH
+exit
+echo $PATH
+exit()
+echo $PATH
+exit()
+echo $PATH
+exit()
+echo $PATH
+exit()
+echo $SHELL
+exit()
+echo $PATH
+exit()
+echo $PATH
+exit()
+python
+exit
+python
+exit
+pipenv shell
+python
+clear
+clear
+pipenv --venv
+echo $PATH
+exit()
+ls
+cd ~/.shell/
+ls
+touch env
+touch interactive
+touch login
+ks
+ls
+touch env_functions
+touch logout
+ls
+exit()
+python
+echo $PATH
+python
+exit
