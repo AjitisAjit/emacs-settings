@@ -1,9 +1,0 @@
-'''
-test_monitor
-----------------
-Tests for folder monitoring code
-''''
-
-
-@pytest.fixture(scope='module')
-def

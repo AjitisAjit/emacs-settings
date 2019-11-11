@@ -1,4 +1,0 @@
-;;; IDO customizations
-
-;; Allows opening directories in dired mode with 'dot' filename
-(setq ido-show-dot-for-dired t)

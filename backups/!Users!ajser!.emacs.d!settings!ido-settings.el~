@@ -1,3 +1,0 @@
-;;; IDO customizations
-
-(setq ido-show-dot-for-dired t)
