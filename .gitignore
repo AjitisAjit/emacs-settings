@@ -1,6 +1,9 @@
 # Compiled
 *.elc
 
+# backups
+/backup
+
 # Packaging
 .cask
 
